@@ -1,0 +1,9 @@
+<h1>今日の買い目</h1>
+
+<p>
+  <% @honbun.each do |results| %>
+    <% results.each do |row| %>
+      <%= row %><br />
+    <% end %>
+  <% end %>
+</p>
